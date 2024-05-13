@@ -9,7 +9,7 @@ body, h2, button {
 }
 
 body {
-    background-color: darkgray
+    background-color: rgb(135, 155, 113)
 }
 
 .box {
@@ -34,16 +34,18 @@ h2 {
 
 }
 
- .life-bar {
-    background-color: darkgreen;
+ .person .progress  {
+    background-color:rgb(126, 124, 124);
     height: 30px;
+ 
 }
 
-.life-bar span {
+ .person .progress span {
     display: block;
     width: 100%;
     height: 100%;
-    background-color: darkgrey;
+    background-color: yellowgreen;
+    
 }
 
 .person img {
@@ -54,7 +56,7 @@ h2 {
 
 }
 
-.person button {
+button {
     background-color: lightgray;
     width: 100px;
     padding: 10px;
